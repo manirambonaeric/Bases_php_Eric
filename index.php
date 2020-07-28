@@ -1,3 +1,5 @@
+<?php
+
 // les variables
 $t=2;
 $p=4;
@@ -95,7 +97,7 @@ do{
 
 while($k<10);
  
-//Tableau  : stocker dans le tableau
+//Tableau   stocker dans le tableau
 $tab = array(
     'Produit' => 'Fanta',
     'categorie' => 'froid',
