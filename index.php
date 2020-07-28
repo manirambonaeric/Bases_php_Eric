@@ -44,4 +44,29 @@ else
         echo '<h2>'.'3)Le nombre tape n\'est pas le carre de ' .$a. '</h2>';
     }
     
+    //la condition switch...case
+$n=3;
+switch($n) // on teste en variant la valeur
+{
+    case 1: //dans le cas ou $n vaut 1
+    echo '<h2>'.' 4)Le chiffre tape est un chiffre premier'.'</h2>';
+    break;
+    case 2://dans le cas ou $n vaut 2
+    echo '<h2>'.'4)Le chiffre tape est un chiffre paire'.'</h2>';
+    break;
+    case 3;//dans le cas ou $n vaut 3
+    echo '<h2>'.'4)Le chiffre tape est un chiffre premier'.'</h2>';
+    break;
+    case 4://dans le cas ou $n vaut 4
+    echo '<h2>'.'4)Le chiffre tape est un chiffre paire'.'</h2>';
+    break;
+    case 5://dans le cas ou $n vaut 5
+    echo '<h2>'.'4)Le chiffre tape est un chiffre premier'.'</h2>';
+    break;
+    
+    default: //sinon le cas n'exite pas
+    echo '<h2>'.'4)Ce chiffre n\'appartient pas parmi les premiers cinq  chiffres entiers naturels '.'</h2>' ;
+}
+
+
  
