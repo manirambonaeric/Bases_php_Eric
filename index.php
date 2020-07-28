@@ -69,4 +69,10 @@ switch($n) // on teste en variant la valeur
 }
 
 
+// Pour la boucle for 
+$eleve; //1    //2        //3
+for($eleve=2;$eleve<=10;$eleve++) //1:sert a initialiser 2:condition 3:incrementation
+{
+    echo '<h2>'.'5)Voila le '. $eleve .'è eleve de notre classe </br>'.'</h2>';
+}
  
